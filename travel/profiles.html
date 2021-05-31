@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile</title>
+	<link rel="stylesheet" type="text/css" href="profile.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+   
+</head>
+<body>
+	<nav class="nav-bar">
+		<ul style="list-style-type: none;">
+			<li id="li">
+				<a href="newAcc.html" style="text-decoration: none;">Register</a>
+			</li>
+			<li>
+				<a href="profiles.html" style="text-decoration: none;">Profiles</a>
+			</li>
+			<li>
+				<a href="front.html" style="text-decoration: none;">Login</a>
+			</li>
+			<li>
+				<a href="index.html" style="text-decoration: none;">Home</a>
+			</li>
+			
+		</ul>
+		
+	</nav>
+	<form>
+	<div class="text">
+<input type="text" name="searchbox" class="in" id="seachField"  placeholder="Search"  >
+
+<button id="open" onkeyup="searchShow()"><i class="fa fa-search" ></i></button>
+<ul id="resultsList" style="color: black;">
+	
+</ul>
+</form>
+
+
+<span > <i class="fa smiley" style="font-size: 30px;"></i></span>
+
+
+
+
+<div class="row">
+	<div class="col-sm-3" id="recipe-card" style="padding-left: 40px;">
+		<div class="card" style="text-align: center;">
+		<a href="#">
+			<img src="images/p2.jpg" width="289px;" height="200px; " class="img"></a>
+			<div class="card-body">
+				 <h5 class="card-title">Aakriti thapa</h5>
+    <p class="card-text">Kathmandu ,basundhara.</p>
+    <p class="card-text">owner of chiya pasal.</p><hr>
+<div class="cf">
+    <i class="fa fa-heart a" style="color: black; font-size: 20px; float: left;"></i>
+    <i class=" fa fa-remove" onclick=" this.parentElement.parentElement.parentElement.remove();" style="font-size: 20px; float: right;"></i>
+  
+		</div>		
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="col-sm-3" style="padding-left: 40px;">
+		<div class="card" style="text-align: center;">
+		<a href="#">
+			<img src="images/jyoti.jpg" width="289px;" height="200px; " class="img"></a>
+			<div class="card-body">
+				 <h5 class="card-title">jyoti lamsal</h5>
+    <p class="card-text">Kathmandu ,samakhusi.</p>
+    <p class="card-text">Tiktok celebreaty.</p><hr>
+<div class="cf">
+    <i class="fa fa-heart a" style="color: black; font-size: 20px; float: left;"></i>
+    <i class=" fa fa-remove" onclick=" this.parentElement.parentElement.parentElement.remove();" style="font-size: 20px; float: right;"></i>
+  
+		</div>		
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="col-sm-3"  style="padding-left: 40px;">
+		<div class="card" style="text-align: center;" >
+		<a href="#">
+			<img src="images/shreya.jpg" width="289px;" height="200px;" class="img"></a>
+			<div class="card-body">
+				 <h5 class="card-title">shreya bhandari</h5>
+    <p class="card-text">Kathmandu ,kapurdhara.</p>
+    <p class="card-text">Artist.</p><hr>
+    <div class="cf">
+    <i class="fa fa-heart a" style="color: black; font-size: 20px; float: left;"></i>
+     <i class=" fa fa-remove" onclick="this.parentElement.parentElement.parentElement.remove();" style="font-size: 20px; float: right;"></i>
+  </div>
+				
+			</div>
+			
+		</div>
+		</div>
+	
+	<div class="col-sm-3" style="padding-left: 40px; position: relative; display: inline;">
+		<div class="card" style="text-align: center; border-radius: 2%">
+			<a href="#">
+			<img src="images/richa.jpg" width="289px;" height="200px;" class="img"></a>
+			<div class="card-body">
+				<h5 class="card-title">richa gurung</h5>
+    <p class="card-text">pokhara</p>
+    <p class="card-text">BTS manager</p><hr>
+    <div class="cf">
+    <i class="fa fa-heart a" style="color: black; font-size: 20px; float: left;"></i>
+    <i class=" fa fa-remove" onclick="this.parentElement.parentElement.parentElement.remove();" style="font-size: 20px; float: right;"></i>
+  </div>
+				
+			
+	</div>
+	</div>
+</div>
+	
+<div class="row" style="text-align: center; display: inline;">
+<div class="col-sm-3" style="padding-left: 40px;position: relative;bottom: 60px;">
+	<a href="#">
+		<div class="card" style="text-align: center; border-radius: 2%;">
+			<img src="images/Prapti.jpg" width="289px;" height="200px;" class="img"></a>
+			<div class="card-body">
+			<h5 class="card-title">Prapti koirala</h5>
+    <p class="card-text">Kathmandu ,Airpot.</p>
+    <p class="card-text">Fullstack,developer</p><hr>
+    <div class="cf">
+    <i class="fa fa-heart a" style="color: black; font-size: 20px; float: left;"></i>
+    <i class=" fa fa-remove" onclick="this.parentElement.parentElement.parentElement.remove();" style="font-size: 20px; float: right;"></i>
+  </div>
+			
+			</div>
+		</div>
+			
+		</div>
+	
+	</div>
+</div>
+
+<div id="footer" >
+	
+	<div class="row">
+		<div class="col-sm-6"> 
+    <nav style=" display: inline; ">
+      <ul style="  color: black; text-align: center; ">
+      <li style=""><a href="#" style="list-style-type: none;">Home</li></a>
+       <li>  <a href="profile.html">profile</li></a>
+         <li> <a href="newAcc.html" >Register</li></a>
+          <li> <a href="front.html">contact</li></a>
+        </ul>
+    </nav>
+</div>
+<div class="col-sm-6">
+	<h1>haushdusc</h1>
+	<p>hasdugsucguhcbsuhcbs</p>
+	
+</div>
+</div>
+
+<div style="text-align: center; position: relative; top: 90px;">
+  
+  <a href="https://facebook.com" class="fa fa-facebook" style=" font-size: 35px; width: 55px; border-radius: 100%; background-color: #0061a8; color: white; "></a>
+    <a href="htttps://twitter.com" class="fa fa-twitter" style=" font-size: 40px; width: 50px; border-radius: 100%; background-color: #8ab6d6; color:white; "></a>
+    <a href="htttps://instagram.com" class="fa fa-instagram" style=" font-size: 40px; width: 50px; border-radius: 100%; background-color: #ce1212; color:white; "></a>
+    <p style="font-size: 20px; font-family: cursive;">@Copyright 2020 to 2021</p>
+
+</div>
+</div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script type="text/javascript" src="profile.js"></script>
+</body>
+</html>
