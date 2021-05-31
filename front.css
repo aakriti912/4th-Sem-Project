@@ -1,0 +1,91 @@
+body{
+	 
+	background-image: url("images/art.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 100%;
+
+}
+h3{
+	border-bottom: 1px solid grey;
+	padding-bottom:  7px;
+}
+#form{
+	padding-top: 60px;
+	font-weight: bold;
+
+
+}
+.a{
+	border-radius: 10%;
+	position: relative;
+	top: 100px;
+	
+ background-color: #ffffff;
+  border: 1px solid black;
+
+width: 400px;
+height: 480px;
+
+}
+
+.input {
+	width: 250px;
+	height: 39px;
+}
+.uname{
+	padding-top: 10px;
+}
+.password{
+	padding-top: 30px;
+}
+.btn{
+	position: relative;
+	bottom: 25px;
+}
+button{
+	color: white;
+	background-color: green;
+
+}
+
+p{
+	color: grey;
+
+	font-size: 15px;
+	position: relative;
+	bottom: 50px;
+	
+}
+
+
+@media  (max-width: 595px) {
+	body{
+			background-image: url("images/art.jpg");
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 700px;
+
+
+
+	}
+	.a{
+		width: 300px;
+		height: 450px;
+		position: relative;
+		bottom: 200px;
+		text-align: center;
+
+
+	}
+	p{
+		position: relative;
+		bottom: 65px;
+	}
+  
+}
+

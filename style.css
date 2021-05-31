@@ -1,0 +1,251 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.main{
+	background-image: url("images/t1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+
+	
+}
+.a:hover{
+	background-color: #709fb0;
+	color: #8ac4d0;
+
+}
+.gender{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-color: #e4fbff;
+}
+
+
+/*.feature{
+	background-image: url("travel.jpg");
+	opacity: 2;
+	background-size: cover;
+	height: 300px;
+	background-position: center;
+}*/
+
+.card-deck{
+  padding-top: 6%;
+
+}
+.but1{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.but1:hover{
+  background-color: pink;
+}
+
+
+.last{
+color: black;
+text-align: center;
+font-size: 50px;
+margin-top: 50px;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+.test{
+  
+  opacity: 2;
+  background-position: cover;
+  text-align: center;
+  margin-bottom: 8px;
+
+}
+
+h1{
+  
+  font-family: 'Pacifico', cursive;
+  color: black;
+}
+.imag{
+
+    width: 900px;
+    height: 400px;
+    opacity: 0.5;
+    animation-name: imag;
+    animation-duration: 4s;
+
+
+}
+@keyframes imag {
+  from {
+    opacity: 0.5;
+
+  }
+  to {opacity: 1;}
+}
+
+
+
+
+
+
+
+nav{
+	display: inline;
+}
+nav ul{
+	display: inline;
+}
+nav ul li{
+	display: inline;
+}
+
+
+
+
+
+
+
+
+/*.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}*/
+
+/* The popup chat - hidden by default */
+/*.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}*/
+
+/* Add styles to the form container */
+/*.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+/*.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}*/
+
+/* When the textarea gets focus, do something */
+/*.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+*/
+/* Set a style for the submit/send button */
+/*.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}*/
+
+/* Add a red background color to the cancel button */
+/*.form-container .cancel {
+  background-color: red;
+}*/
+
+/* Add some hover effects to buttons */
+/*.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+*/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+font-size: 40px;
+color:#206a5d; 
+font-style: cursive;
+  }
+  .imag{
+    width: 600px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1 {
+font-size: 40px;
+color:#206a5d; 
+font-style: cursive;
+  }
+  .imag{
+    width: 600px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h1 {
+font-size: 40px;
+color:#206a5d; 
+font-style: cursive;
+  }
+  .imag{
+    width: 7680px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+h1 {
+font-size: 40px;
+color:#206a5d; 
+font-style: cursive;
+  }
+  .imag{
+    width: 992px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h1 {
+font-size: 40px;
+color:#d8d3cd; 
+font-style: cursive;
+  }
+  .imag{
+    width: 1200px;
+  }
+}
