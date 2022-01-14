@@ -1,2 +1,2 @@
 # 4th-Sem-Project
-our project is about finding new Partner while travelling.
+our project is about finding  travelling Patner while going for new destination.
